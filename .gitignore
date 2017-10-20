@@ -1,13 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-/*
-!/.gitignore
-!/projects
-/projects/*
-!/projects/.gitkeep
-!/vagrant/
-!/README.MD
-!/Vagrantfile
-!/vagrant/nginx/log
-/vagrant/nginx/log/*
-!/vagrant/nginx/log/.gitkeep
-
+*
+!.gitignore
+!vagrant/
+!README.MD
+!Vagrantfile
