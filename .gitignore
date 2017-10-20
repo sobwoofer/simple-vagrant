@@ -9,5 +9,5 @@
 !/Vagrantfile
 !/vagrant/nginx/log
 /vagrant/nginx/log/*
-!/vagrant/nginx/.gitkeep
+!/vagrant/nginx/log/.gitkeep
 
