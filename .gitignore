@@ -2,10 +2,12 @@
 /*
 !/.gitignore
 !/projects
-/projects/*/
+/projects/*
+!/projects/.gitkeep
 !/vagrant/
 !/README.MD
 !/Vagrantfile
 !/vagrant/nginx/log
 /vagrant/nginx/log/*
+!/vagrant/nginx/.gitkeep
 
