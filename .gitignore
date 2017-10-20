@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 *
 !.gitignore
-!vagrant/
+!vagrant
+!projects
 !README.MD
 !Vagrantfile
