@@ -1,10 +1,17 @@
 Welcome to Simple Vagrant!
 ===================
-> #### info
+> ### info
 
 This virtual machine has simple and easy settings for configure it
 in your web projects.
-> #### how to install short
+Stack: <br>
+Ubuntu 16.04 <br>
+Nginx 1.10 <br>
+PHP 7.1 <br>
+MySQL 5.7 <br>
+Redis 3.0 <br>
+ElasticSearch 5.5 <br>
+> ### how to install short
 
 If [those](#you-should-have-to-installed)  apps installed in your linux, you can clone and run vagrant simple <br> 
 Clone this project, delete .example from the files name and run ```vagrant up```
@@ -19,7 +26,7 @@ also your system must has vagrant hostmanager: <br>
 
 ----------
 
-> #### how to install full 
+> ### how to install full 
  
  - Clone project from your system: <br>
  ``` git clone https://github.com/sobwoofer/simple-vagrant.git ``` <br>
