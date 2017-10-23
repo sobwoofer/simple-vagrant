@@ -1,0 +1,5 @@
+# local configuration
+*
+!.gitignore
+!log
+!app.conf.example
