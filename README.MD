@@ -10,6 +10,7 @@ Nginx 1.10 <br>
 PHP 7.1 <br>
 MySQL 5.7 <br>
 Redis 3.0 <br>
+Supervisor 3.3 <br>
 ElasticSearch 5.5 <br>
 > ### how to install short
 
@@ -34,7 +35,7 @@ also your system must has vagrant hostmanager: <br>
 open it and configure your domens like: 
 ``` 
 domains = {
-      example:  'example.dev',
+      example:  'example.test',
       example2:  'myDomain.com',
       apiDomain:  'api'
     } 
@@ -47,7 +48,7 @@ config.vm.post_up_message = "Example URL: http://#{domains[:example]}\n} Second 
  Also you can change machine name, IP, CPU cores, and RAM memory in this file.
  recommended insert into this file [your personal github token][4].
 
- - Go to vagrant/nginx folder and ```rename app.conf.example``` to ```app.conf```
+ - Go to vagrant/nginx folder and rename ```app.conf.example``` to ```app.conf```
  You also can add nginx server configurations sections for your new domains for example:
 ``` 
  server{

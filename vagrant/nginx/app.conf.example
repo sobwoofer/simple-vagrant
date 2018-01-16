@@ -6,8 +6,8 @@ server {
    listen 80; ## listen for ipv4
    #listen [::]:80 default_server ipv6only=on; ## listen for ipv6
 
-   server_name example.dev;
-   root        /app/projects/example.dev;
+   server_name example.test;
+   root        /app/projects/example.test;
    index       index.php index.html;
 
    access_log  /app/vagrant/nginx/log/example-access.log;
