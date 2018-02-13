@@ -41,7 +41,7 @@ apt-get update
 apt-get upgrade -y
 
 info "Install additional software"
-apt-get install -y php7.1-curl php7.1-cli php7.1-intl php7.1-mysqlnd php7.1-gd php7.1-fpm php7.1-mbstring php7.1-xml php7.1-xdebug unzip nginx mysql-server-5.7 mc php7.1-zip php-mcrypt7.1 php7.1-memcached php7.1-soap memcached npm
+apt-get install -y php7.1-curl php7.1-cli php7.1-intl php7.1-mysqlnd php7.1-gd php7.1-fpm php7.1-mbstring php7.1-xml php7.1-xdebug unzip nginx mysql-server-5.7 mc php7.1-zip php7.1-mcrypt php7.1-memcached php7.1-soap memcached npm
 
 info "Install Oracle JDK"
 debconf-set-selections <<< "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true"
@@ -86,6 +86,7 @@ info "Initailize databases for MySQL"
 mysql -uroot <<< "CREATE DATABASE my_crm"
 mysql -uroot <<< "CREATE DATABASE wiki"
 mysql -uroot <<< "CREATE DATABASE my_crm_test"
+mysql -uroot <<< "CREATE DATABASE papirushop"
 echo "Done!"
 
 info "Enabling supervisor processes"
